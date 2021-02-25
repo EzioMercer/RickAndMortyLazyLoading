@@ -1,0 +1,11 @@
+.characterInfo {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  color: white;
+  margin: 0 auto;
+
+  img {
+    margin-bottom: 16px;
+  }
+}

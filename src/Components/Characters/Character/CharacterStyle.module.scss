@@ -1,0 +1,27 @@
+$border-radius: 8px;
+
+.character {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 16%;
+  min-width: 128px;
+  text-align: center;
+  margin: 16px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: $border-radius;
+  padding: 8px;
+  background-color: cornflowerblue;
+  box-shadow: 4px 4px 8px 0 chocolate;
+
+  span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: white;
+  }
+
+  img {
+    border-radius: 32%;
+  }
+}
